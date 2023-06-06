@@ -1,0 +1,411 @@
+:root{
+    --orange-color:#FFCD9E;
+    --black-color:#282828;
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+
+}
+.vector{
+    position: absolute;
+left: 15.98%;
+right: 15.58%;
+top: 11.55%;
+bottom: 11.51%;
+}
+.rectangle{
+    /* Rectangle 11 */
+
+
+position: absolute;
+width: 1440px;
+height: 592px;
+left: 0px;
+top: -1px;
+
+/* The brown */
+
+background: #FFCD9E;
+}
+.body{
+    position: absolute ;
+    left: 65.98%;
+    right: 15.58%;
+    top: 11.55%;
+    bottom: 11.51%;
+}
+.eye1{
+    position: absolute;
+left: 64.12%;
+right: 52.52%;
+top: 18.29%;
+bottom: 60.54%;
+}
+.eye2{
+    position: absolute;
+left: 79.87%;
+right: 82.77%;
+top: 18.29%;
+bottom: 67.55%;
+
+}
+.nose{
+
+position: absolute;
+left: 71.08%;
+right: 48.45%;
+top: 19.04%;
+bottom: 63.41%;
+
+}
+.mouth{
+    position: absolute;
+left: 71.08%;
+right: 46.74%;
+top: 25.72%;
+bottom: 60.02%;
+}
+.intro{
+    /* An inspiring design delivered to your inbox every morning */
+
+
+position: absolute;
+width: 562px;
+height: 108px;
+left: 136px;
+top: 83px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+/* or 54px */
+
+
+color: #282828;
+
+}
+.ab{
+    /* Our team scouts the internet for the best designs, illustrations and art and delivers a truly inspiring one every day to your inbox */
+
+
+position: absolute;
+width: 495px;
+height: 81px;
+left: 136px;
+top: 219px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+display: flex;
+align-items: center;
+
+color: #484848;
+
+}
+.show{
+    position: absolute;
+width: 227px;
+height: 81px;
+left: 136px;
+top: 315px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+display: flex;
+align-items: center;
+
+color: #282828;
+
+}
+.free{
+    /* Free - No Spam - No Data Sharing */
+
+
+position: absolute;
+width: 344px;
+height: 61px;
+left: 134px;
+top: 479px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.rec9{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 344px;
+height: 64px;
+left: 136px;
+top: 411px;
+
+background: #FFFFFF;
+border: 4px solid #000000;
+border-radius: 8px;
+}
+.enter{
+    position: absolute;
+width: 350px;
+height: 64px;
+left: 158px;
+top: 411px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+display: flex;
+align-items: center;
+
+color: #888888;
+}
+.reg{
+    position: absolute;
+width: 216px;
+height: 64px;
+left: 496px;
+top: 411px;
+
+background: #282828;
+border-radius: 8px;
+}
+.regnow{
+/* Register Now */
+
+
+position: absolute;
+width: 216px;
+height: 64px;
+left: 520px;
+top: 411px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.footer{
+    /* Rectangle 17 */
+
+
+position: absolute;
+width: 1440px;
+height: 298px;
+left: 0px;
+top: 592px;
+
+/* The Black */
+
+background: #282828;
+}
+.prompt{
+    /* Prompt Generator */
+
+
+position: absolute;
+width: 216px;
+height: 36px;
+left: 191px;
+top: 654px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+
+}
+.dweep{
+    /* Dweep Daily */
+
+
+position: absolute;
+width: 216px;
+height: 36px;
+left: 191px;
+top: 690px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+}
+.all{
+    /* All Contributors */
+
+
+position: absolute;
+width: 216px;
+height: 36px;
+left: 191px;
+top: 726px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+
+}
+
+.data{
+   /* Your data on Dweep.io */
+
+
+position: absolute;
+width: 220px;
+height: 36px;
+left: 191px;
+top: 762px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+}
+.contribute{
+    /* Contribute to Dweep */
+
+
+position: absolute;
+width: 236px;
+height: 36px;
+left: 191px;
+top: 798px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+}
+.dweep2{
+/* Dweep.io */
+
+
+position: absolute;
+width: 148px;
+height: 36px;
+left: 1099px;
+top: 654px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+text-align: right;
+}
+.made{
+  /* Made with love in India */
+
+
+position: absolute;
+width: 232px;
+height: 36px;
+left: 1015px;
+top: 690px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+text-align: right; 
+
+}
+.linkedin{
+    /* Vector */
+
+
+position: absolute;
+left: 82.16%;
+right: 16.37%;
+top: 99.25%;
+bottom: 15.49%;
+
+border: 3px solid;
+}
+.insta{
+    /* Vector */
+    
+
+
+position: absolute;
+left: 84.81%;
+right: 13.66%;
+top: 99.25%;
+bottom: 15.44%;
+
+border: 3px solid
+}
+.hello{
+    /* hello@dweep.io */
+
+
+position: absolute;
+width: 232px;
+height: 36px;
+left: 1015px;
+top: 798px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+text-align: right;
+
+}
